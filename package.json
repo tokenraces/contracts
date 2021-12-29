@@ -1,0 +1,20 @@
+{
+  "name": "token-races-contracts",
+  "version": "1.0.0",
+  "description": "Token Races Contracts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Token Races",
+  "license": "ISC",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.5.0",
+    "@openzeppelin/contracts": "^4.3.2",
+    "@chainlink/contracts": "^0.2.2"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "truffle-plugin-verify": "^0.5.15"
+  }
+}
